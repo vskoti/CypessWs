@@ -4,7 +4,7 @@
  */
  export function checkChecbox(locator, check)
  {
-     cy.get(locator).check(check, {force: true});
+     cy.get(locator).click({force: true});
  }
 
  /**
@@ -12,5 +12,5 @@
  */
 export function click(object)
 {
-    cy.get(object).click() ;
+    cy.get(object).click({force:true}) ;
 }

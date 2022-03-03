@@ -8,7 +8,7 @@
     directFlightsCheckboxLocator : '[data-testid="direct_flights_only_stops_filter_enabled"]', 
     saudiaAirlineCheckboxLocator : '[data-testid="FlightSearchResult__AirlinesFilter__Airline_SV_Checkbox"]',
     leisurePopUpLocator : '[data-testid=TripReasonModal__Option_Leisure]',
-    selectFirstPackageGroupLocator : '[data-testid=Group1__PaxCount]' ,
+    selectFirstPackageGroupLocator : '[data-testid=Group0__SelectFlightButton]' ,
     popUpClose : '[data-testid="TripReasonModal__CloseIcon"]' ,
     showAllLocator : '.sc-MKjYC' 
 }
